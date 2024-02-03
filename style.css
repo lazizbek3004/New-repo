@@ -22,9 +22,27 @@ nav ul li a{
 nav ul li a:hover{
     color: rgb(44, 251, 255);
 }
-
-
-
+main{
+    display: flex;
+    gap: 60px;
+    padding: 20px;
+}
+.left{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+    border: 2px solid rgb(37, 37, 37);
+}
+.right{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+    border: 2px solid rgb(59, 58, 58);
+}
 
 
 
