@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding: 20px 100px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: hsl(211, 86%, 47%);
+    cursor: pointer;
+    font-weight: bold;
+    font-style: sans-serif,arial;
+    line-height: 20px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+nav ul li a:hover{
+    color: rgb(44, 251, 255);
+}
+
+
+
+
+
+
